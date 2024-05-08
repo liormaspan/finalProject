@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(green,yellow,red);
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card-content {
+  border-radius: 6px;
+  box-shadow: 0 200px 400px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.9s ease;
+  }
+  
+  .card h1,
+  .card h2 {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+  }
+  
+  .card p {
+    margin: 0;
+    color: #fbfbfb;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #imgH {
+    margin-top: 10px;
+    height: 400px;
+    width: 350px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: auto;
+  }
+  
+  #ltd {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .card :hover {
+    color: #000000;
+    font-weight: bold;
+    transform: translateY(-5px);
+  }
+  
