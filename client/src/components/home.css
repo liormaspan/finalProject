@@ -40,6 +40,11 @@ body{
     justify-content: center;
     align-items: center;
   }
+
+  .img p{
+    color: #000000;
+    text-decoration: none;
+  }
   
   #imgH {
     margin-top: 10px;
@@ -71,7 +76,7 @@ body{
   }
   
   .nav-links a:hover {
-    color: #007bff;
+    color: #de6a43;
   }
   
   .logo img {

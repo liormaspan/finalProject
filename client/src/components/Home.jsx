@@ -52,7 +52,7 @@ const Home = (props) => {
             <div className="img">   
             <img id="imgH" src="/images/homeImg/numbers.jpg" alt="Numbers img" /></div>
                 <p>Learn numbers in Amharic and hear their pronunciation by clicking on
-              them. Click on the "Ready to Fun Quiz" link to test your knowledge!</p>
+              them.</p>
           </div>
           </a>
         </div>
@@ -77,7 +77,7 @@ const Home = (props) => {
           <div className="img">
             <img id="imgH" src="/images/homeImg/animals.jpg" alt="Animals img" /></div>            <p>
               Explore the animal kingdom in Amharic. Listen to the names of
-              different animals and their sounds!
+              different animals!
             </p>
           </div>
           </a>

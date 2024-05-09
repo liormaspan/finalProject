@@ -15,6 +15,16 @@
       text-align: center;
       margin-bottom: 350px;
   }
+
+  .NavB a{
+    display: flex;
+    justify-content:center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 3px;
+  }
   
   ul {
     list-style: none;
@@ -23,7 +33,6 @@
   li {
     margin-top: 8px;
     padding: 16px;
-    border: 3px solid black;
     border-radius: 20px;
     font-size: 20px;
   }
@@ -36,7 +45,7 @@
   
   .final-results {
     margin: 0 auto;
-    width: 50%;
+    width: 0%;
     height: auto;
     margin-top: 64px;
     background-color: gray;
@@ -44,8 +53,10 @@
     border-radius: 16px;
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
   }
+
   
   button {
     border: none;
