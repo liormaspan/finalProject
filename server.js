@@ -13,13 +13,14 @@ app.listen(PORT,()=>{
 })
 
 
+
 app.use('/',router)
 app.use('/numbers',router)
 app.use('/colors',router)
 app.use('/animals',router)
 
-// app.use(express.static(path.join(__dirname, "client/dist")));
-
-// app.get("*", (req, res) => {
-//     res.sendFile(path.resolve(__dirname, "./client/dist", "index.html"));
-// });
+const __dirname = path.resolve();
+app.use(express.static(path.join(__dirname, "./client/dist")));
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./client/dist", "index.html"));
+  });
