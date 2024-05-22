@@ -115,7 +115,7 @@ const QuizAni = (props) => {
           </ul>
         </div>
       )}
-            <Link to={"/Animals"}>Go Back </Link>
+            <Link to={"/Animal"}>Go Back </Link>
     </div>
   );
 };

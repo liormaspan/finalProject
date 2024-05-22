@@ -112,7 +112,7 @@ const QuizNum = (props) => {
         </div>
         
       )}
-            <Link to={"/Numbers"}>Go Back </Link>
+            <Link to={"/Number"}>Go Back </Link>
     </div>
   );
 };

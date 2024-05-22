@@ -110,7 +110,7 @@ const QuizCol = (props) => {
           </ul>
         </div>
       )}
-            <Link to={"/Colors"}>Go Back </Link>
+            <Link to={"/Color"}>Go Back </Link>
     </div>
   );
 };
