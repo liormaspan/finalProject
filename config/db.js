@@ -1,23 +1,20 @@
-const postgres = require('postgres');
-require('dotenv').config();
+const knex = require('knex');
+const dotenv = require('dotenv');
+dotenv.config();
 
-let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
+let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PGPORT } = process.env;
 
-const sql = postgres({
-  host: PGHOST,
-  database: PGDATABASE,
-  username: PGUSER,
-  password: PGPASSWORD,
-  port: 5432,
-  ssl: 'require',
-  connection: {
-    options: `project=${ENDPOINT_ID}`,
-  },
+const db = knex({
+    client: 'pg',
+    connection: {
+        host: PGHOST,
+        port: PGPORT,
+        user: PGUSER,
+        database: PGDATABASE,
+        password: PGPASSWORD,
+        ssl: { rejectUnauthorized: false }
+    },
+    
 });
 
-async function getPgVersion() {
-  const result = await sql`select version()`;
-  console.log(result);
-}
-
-getPgVersion();
+module.exports = { db };
