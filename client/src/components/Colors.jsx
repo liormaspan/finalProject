@@ -76,8 +76,8 @@ const Colors=(props)=>{
         <>
         <div className="NavB">
         <Link to={'/'}>Home </Link>
-        <Link to={'/numbers'}>Numbers </Link>
-        <Link to={'/animals'}>Animals </Link>
+        <Link to={'/number'}>Numbers </Link>
+        <Link to={'/animal'}>Animals </Link>
         </div>
 
         <h1 id="text">Colors</h1>

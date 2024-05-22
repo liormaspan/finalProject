@@ -104,8 +104,8 @@ const Numbers = () => {
     <>
       <div className="NavB">
         <Link to={"/"}>Home </Link>
-        <Link to={"/colors"}>Colors </Link>
-        <Link to={"/animals"}>Animals </Link>
+        <Link to={"/color"}>Colors </Link>
+        <Link to={"/animal"}>Animals </Link>
       </div>
       <h1 id="text">Numbers</h1>
 

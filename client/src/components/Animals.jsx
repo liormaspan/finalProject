@@ -102,8 +102,8 @@ const Animals = (props) => {
         <>
             <div className="NavB">
                 <Link to={'/'}>Home </Link>
-                <Link to={'/numbers'}>Numbers </Link>
-                <Link to={'/colors'}>Colors </Link>
+                <Link to={'/number'}>Numbers </Link>
+                <Link to={'/color'}>Colors </Link>
             </div>
             <h1 id="text">Animals</h1>
 

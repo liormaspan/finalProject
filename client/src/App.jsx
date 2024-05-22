@@ -14,9 +14,9 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/numbers' element={<Numbers/>}/>
-      <Route path='colors'element={<Colors/>}/>
-      <Route path='animals' element={<Animals/>}/>
+      <Route path='/number' element={<Numbers/>}/>
+      <Route path='/color'element={<Colors/>}/>
+      <Route path='/animal' element={<Animals/>}/>
       <Route path='quizNum' element={<QuizNum/>}/>
       <Route path='quizCol' element={<QuizCol/>}/>
       <Route path='quizAni' element={<QuizAni/>}/>

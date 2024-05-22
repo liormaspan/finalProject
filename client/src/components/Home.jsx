@@ -16,17 +16,17 @@ const Home = (props) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/numbers" activeClassName="active">
+            <NavLink to="/number" activeClassName="active">
               Numbers
             </NavLink>
           </li>
           <li>
-            <NavLink to="/colors" activeClassName="active">
+            <NavLink to="/color" activeClassName="active">
               Colors
             </NavLink>
           </li>
           <li>
-            <NavLink to="/animals" activeClassName="active">
+            <NavLink to="/animal" activeClassName="active">
               Animals
             </NavLink>
           </li>
@@ -47,7 +47,7 @@ const Home = (props) => {
           <h2>
             Numbers
           </h2>
-          <a href="/numbers">
+          <a href="/number">
           <div className="card-content">
             <div className="img">   
             <img id="imgH" src="/images/homeImg/numbers.jpg" alt="Numbers img" /></div>
@@ -59,7 +59,7 @@ const Home = (props) => {
 
         <div className="card">
           <h2>Colors</h2>
-          <a href="/colors">
+          <a href="/color">
           <div className="card-content">
           <div className="img">
             <img id="imgH" src="/images/homeImg/rainbow-slide.jpg" alt="Colors img" /></div>            <p>
@@ -72,7 +72,7 @@ const Home = (props) => {
 
         <div className="card">
           <h2>Animals</h2>
-          <a href="/animals">
+          <a href="/animal">
           <div className="card-content">
           <div className="img">
             <img id="imgH" src="/images/homeImg/animals.jpg" alt="Animals img" /></div>            <p>
