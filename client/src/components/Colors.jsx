@@ -61,7 +61,7 @@ const Colors=(props)=>{
 
     const allCol=async()=>{    
         try{
-        const res=await fetch('http://localhost:5000/colors')
+        const res=await fetch('/colors')
         const data=await res.json()
         console.log(data);
         setCol(data)

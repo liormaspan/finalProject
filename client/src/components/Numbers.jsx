@@ -91,7 +91,7 @@ const Numbers = () => {
 
   const allNum = async () => {
     try {
-      const res = await fetch("http://localhost:5000/numbers");
+      const res = await fetch(":5000/numbers");
       const data = await res.json();
       console.log(data);
       setNum(data);

@@ -93,7 +93,7 @@ const Animals = (props) => {
     }, []);
 
     const allAni = async () => {
-        const res = await fetch('http://localhost:5000/animals');
+        const res = await fetch('/animals');
         const data = await res.json();
         setAni(data);
     };
